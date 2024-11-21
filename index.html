@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var score = prompt("Enter your score")
+    if(score >= 0 && score < 32){
+        console.log("F9 - Fail😢");    
+    }else if(score >=33 && score < 39){
+        console.log("D7 - Pass😂");
+        
+    }else if(score >=40 && score < 49){
+        console.log("C5 - Credit🤷‍♂️");
+        
+    }else if(score >= 50 && score < 59){
+        console.log("B3 - Good😘 ");
+        
+    }else if(score >= 60 && score < 69){
+        console.log("B2 - Very goo🤗d");
+        
+    }else if(score >= 80 && score <100){
+        console.log("A1- Excellent💕 ");
+        
+    }else{
+        console.log("This is not match ");
+        
+    }
+    var word = prompt("Enter word")
+    var newWord = word.split("").reverse().join("");
+    console.log(newWord);
+    
+</script>
+</html>
